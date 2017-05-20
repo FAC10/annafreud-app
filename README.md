@@ -1,6 +1,6 @@
 # annafreud-app
 
-# A food diary app to replace the paper version used in the treatment of eating disorders.
+#### _A food diary app to replace the paper version used in the treatment of eating disorders._
 
 ## User Story
 As a young person receiving treatment for an eating disorder,
@@ -19,7 +19,6 @@ Therapy patients recovering from eating disorders are expected to fill out A4 te
 This method is inconvenient because it is indiscrete, cumbersome, and has no positive reinforcement. Patients end up writing in their diary at the end of the day, which means that their logs are less accurate. They also lose out on the chance to reflect on their emotions in the moment.
 
 ## Goals
-
 - Make the treatment process friendlier
 - Food diary: time / what you ate / personal comment box
 - Synced with therapist
@@ -28,3 +27,12 @@ This method is inconvenient because it is indiscrete, cumbersome, and has no pos
 - Go back to previous days
 - Include therapy session notes
 - Private thoughts of patient with no judgement
+
+## Tech stack
+- Hapi
+- Postgres
+- Handlebars
+- Codecov
+- Istanbul
+- Node.js
+- Tape
