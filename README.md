@@ -2,7 +2,8 @@
 
 #### _A food diary app to replace the paper version used in the treatment of eating disorders._
 
-## User Story
+## Main User Story
+_(see `/userstories.md` for more detailed stories)_
 As a young person receiving treatment for an eating disorder,
 I want to be able to track my food diary wherever I am,
 so that I can track my eating patterns and how they affect my emotions.
@@ -11,6 +12,7 @@ I also need to effectively communicate this information in therapy sessions.
 ## Stakeholders
 - The Patient
 - The Therapist
+- The Parent (if patient is particularly young or needs supervision)
 
 ## The current situation
 Therapy patients recovering from eating disorders are expected to fill out A4 templates detailing what they ate, when they ate, and how they felt about it every day. They then bring these food logs to their therapy sessions for review.
@@ -27,12 +29,3 @@ This method is inconvenient because it is indiscrete, cumbersome, and has no pos
 - Go back to previous days
 - Include therapy session notes
 - Private thoughts of patient with no judgement
-
-## Tech stack
-- Hapi
-- Postgres
-- Handlebars
-- Codecov
-- Istanbul
-- Node.js
-- Tape
