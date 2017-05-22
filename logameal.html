@@ -4,22 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="./css/main.css" type="text/css">
+  <link rel="stylesheet" href="./css/main.css" type="text/css">
+  <link rel="stylesheet" href="./css/logameal.css" type="text/css">
   <title>Document</title>
 </head>
 <body>
 
-  <form action="./landing.html">
-      <input type="submit" value="Back to home" />
-  </form>
+  <header class="logameal_header">
+    <a href="./landing.html"><img src="./images/back.png" alt="" class="header_back"></a>
+  </header>
 
-  <p>Qn.1</p>
-  <p>Qn.2</p>
-  <p>Qn.3</p>
+  <div class="container">
+    <article class="logameal_questions">
+      <p>Qn.1</p><input type="text" class="logameal_input">
+      <p>Qn.2</p><input type="text" class="logameal_input">
+      <p>Qn.3</p><input type="text" class="logameal_input"></br>
+      <p>Qn.4</p><input type="text" class="logameal_input"></br>
+    </article>
+    <a href="./logged.html" class="logameal_submit">Submit</a>
+  </div>
 
-  <form action="./logged.html">
-      <input type="submit" value="Submit" />
-  </form>
 
 </body>
 </html>
