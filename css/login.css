@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10em 4em 4em 4em;
+  max-width: 80%;
+}
+
+.login_input {
+  border: 0.2em solid black;
+  margin: 1em 0 0.5em 0;
+}
+
+.login_buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login_info {
+  display: none;
+}
