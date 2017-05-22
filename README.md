@@ -2,7 +2,8 @@
 
 #### _A food diary app to replace the paper version used in the treatment of eating disorders._
 
-## Main User Story (see `/userstories.md` for more detailed stories)
+## Main User Story
+_(see `/userstories.md` for more detailed stories)_
 As a young person receiving treatment for an eating disorder,
 I want to be able to track my food diary wherever I am,
 so that I can track my eating patterns and how they affect my emotions.
