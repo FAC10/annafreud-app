@@ -5,27 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./css/main.css" type="text/css">
+  <link rel="stylesheet" href="./css/landing.css" type="text/css">
   <title>Document</title>
 </head>
 <body>
 
-  <form action="./logameal.html">
-      <input type="submit" value="Log a meal" />
-  </form>
+  <header class="landing_header">
 
-  <form action="./calendar.html">
-      <input type="submit" value="Calendar view" />
-  </form>
+    <div class="landing_header_menu">
 
-  <form action="./settings.html">
-      <input type="submit" value="Settings" />
-  </form>
+      <a href="calendar.html">Calendar</a></br>
+      <a href="settings.html">Settings</a>
 
-  <form action="./login.html">
-      <input type="submit" value="Log out" />
-  </form>
+    </div>
 
+    <div class="landing_logout">
+      <a href="./login.html">Log out</a>
+    </div>
 
+  </header>
+
+  <div class="container">
+
+    <h1 class="landing_greeting">Hello, Kim.</h1>
+    <a href="logameal.html" class="landing_logameal">Log a meal</a>
+
+  </div>
 
 </body>
 </html>
