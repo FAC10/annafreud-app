@@ -1,3 +1,10 @@
+body {
+  background-image: url('../images/lscapepurple.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 100vh; 
+}
+
 .landing_header {
   display: flex;
   flex-direction: row;
