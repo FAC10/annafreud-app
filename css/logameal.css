@@ -18,10 +18,12 @@
   border: .05em solid black;
 }
 
-.food_input {
-  border: .05em solid black;
-  width: 10em;
-  height: 5em;
+#food_input {
+  width: 90%;
+}
+
+#what_happened {
+  display: none;
 }
 
 .logameal_questions {
