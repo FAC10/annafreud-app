@@ -4,31 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="./css/main.css" type="text/css">
+  <link rel="stylesheet" href="./css/main.css" type="text/css">
+  <link rel="stylesheet" href="./css/settings.css" type="text/css">
   <title>Document</title>
 </head>
 <body>
 
-  <form action="./landing.html">
-      <input type="submit" value="Back to home" />
-  </form>
+  <header class="settings_header">
+    <a href="./landing.html"><img src="./images/back.png" alt="go back button" class="header_back"></a>
+  </header>
 
-  <h1>Therapy</h1>
-  <p>Therapist name ....</p>
-  <p>Therapist email .... (your meal logs will be sent to this address)</p>
-  <p>Dates and times of therapy ... </p>
+<container>
 
-  <h1>Notifications</h1>
-  <p>ON / OFF</p>
-  <p>Remind me to log a meal at .... every ....</p>
+  <section class="settings_section">
+    <h1 class="settings_heading">Therapy</h1>
+    <p>Therapist name:  <input type="text" name="" value="" class="settings_input"></p>
+    <p>Therapist email:  <input type="text" name="" value="" class="settings_input">
+      <span class="info_icon"> i </span><br>
+    <span class="therapy_hidden">(your meal logs will be sent to this address)</span></p>
+  </section>
 
-  <h1>Custom</h1>
-  <p>Theme</p>
-  <p>Colour scheme</p>
+  <section class="settings_section">
+    <h1 class="settings_heading">Notifications</h1>
+    <p>ON / OFF</p>
+    <p>Remind me to log a meal at .... every ....</p>
+  </section>
 
-  <form action="./landing.html">
-      <input type="submit" value="Save changes" />
-  </form>
+  <section class="settings_section">
+    <h1 class="settings_heading">Custom</h1>
+    <p>Theme</p>
+    <p>Colour scheme</p>
+  </section>
 
+  <section class="settings_section save">
+    <a href="./landing.html" class="save_button">Save changes</a>
+  </section>
+
+</container>
+
+<script src="settings.js"></script>
 </body>
 </html>
