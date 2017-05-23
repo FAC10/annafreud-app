@@ -38,3 +38,10 @@
   font-size: 1.2em;
   max-width: 80%;
 }
+
+#authentication_error {
+  display: none;
+  margin-top: 1.2em;
+  margin-bottom: -0.8em;
+  color: red;
+}
