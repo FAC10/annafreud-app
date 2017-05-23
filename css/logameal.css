@@ -1,0 +1,29 @@
+.logameal_header {
+  padding: 1em;
+}
+
+.header_back {
+  height: 2em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1em; 
+}
+
+.logameal_input {
+  border: .05em solid black;
+}
+
+.logameal_questions {
+  margin-bottom: 2em;
+}
+
+.logameal_submit {
+  background: silver;
+  padding: .3em;
+  line-height: 1.5em;
+}
