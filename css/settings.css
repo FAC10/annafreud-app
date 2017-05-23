@@ -1,0 +1,48 @@
+.settings_header {
+  padding: 1em;
+}
+
+.header_back {
+  height: 2em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+}
+
+.settings_section {
+  margin: 1em 2em;
+  border: .05em solid black;
+  padding: 0 .5em;
+  font-size: .9em;
+  font-size: .8em;
+}
+
+.settings_heading {
+  font-size: 1.2em;
+}
+
+.settings_input {
+  border: .05em solid black;
+}
+
+.save {
+  text-align: center;
+}
+
+.therapy_hidden {
+  visibility: hidden;
+}
+
+.info_icon {
+  margin-left: .5em;
+}
+
+.settings_switch {
+  background: silver;
+  padding: .2em;
+}

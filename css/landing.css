@@ -35,4 +35,11 @@
 .logameal_button {
   background: silver;
   padding: .3em;
+  background: none;
+}
+
+.landing_greeting {
+  margin: .5em 2em;
+  font-size: 1em;
+  text-align: center;
 }
