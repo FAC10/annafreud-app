@@ -3,20 +3,38 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10em 4em 4em 4em;
-  max-width: 80%;
+  margin: 8em 0em;
+}
+
+.login_logo {
+  width: 6em;
 }
 
 .login_input {
-  border: 0.2em solid black;
-  margin: 1em 0 0.5em 0;
+  border: 0.05em solid black;
+  font-size: 1.2em;
+}
+
+.login_email {
+  margin-top: 2em;
+}
+
+.login_password {
+  margin-top: 1em;
 }
 
 .login_buttons {
   display: flex;
   justify-content: space-between;
+  margin-top: 1em;
+}
+
+.login_button {
+  font-size: 1.2em;
 }
 
 .login_info {
   display: none;
+  font-size: 1.2em;
+  max-width: 80%;
 }
