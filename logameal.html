@@ -16,14 +16,21 @@
 
   <div class="container">
     <article class="logameal_questions">
-      <p>Qn.1</p><input type="text" class="logameal_input">
-      <p>Qn.2</p><input type="text" class="logameal_input">
-      <p>Qn.3</p><input type="text" class="logameal_input"></br>
-      <p>Qn.4</p><input type="text" class="logameal_input"></br>
+      <p>Time</p><input type="text" class="logameal_input" id="current_time_input" value="">
+      <p>What did you have to eat or drink? (type and amount)</p>
+      <textarea rows="3" columns="1" class="logameal_input" id="food_input"></textarea>
+      <p>Did you feel as though you had too much?</p>No<input type="range" min="0" max="10">Yes
+      <p>Did you actually eat too much?</p>No<input type="range" min="0" max="10">Yes</br>
+      <p>Did you manage to keep it down?</p><input type="checkbox" class="logameal_input" value="yes" id="yes">Yes<input type="checkbox" class="logameal_input" value="no" id="no">No</br>
+       <div id="what_happened">
+      <p>What happened?</p><input type="checkbox" class="logameal_input" value="yes">Vomit<input type="checkbox" class="logameal_input" value="no">Laxatives</br>
+    </div>
+      <p>Where were you and what were you doing?</p><textarea class="logameal_input" rows="2" cols="1" id="food_input"></textarea></br>
+      <p>What thoughts and feelings did you have?</p><textarea class="logameal_input" rows="3" cols="1" id="food_input"></textarea></br>
     </article>
     <a href="./logged.html" class="logameal_submit">Submit</a>
   </div>
 
-
+<script src="logameal.js"></script>
 </body>
 </html>
