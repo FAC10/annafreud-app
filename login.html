@@ -10,19 +10,17 @@
 </head>
 <body>
   <div class="container">
-  <img src="/" alt="logo" class="login_logo">
+  <img src="./images/login_logo.png" alt="logo" class="login_logo">
 
-  <form action="./landing.html">
-    <input type="text" class="login_input" name="email" placeholder="Your email"><br>
-
-    <input type="text" class="login_input" name="password" placeholder="Password"><br>
+  <form action="./landing.html" class="login_form">
+      <input type="text" class="login_input login_email" name="email" placeholder="Your email"><br>
+      <input type="text" class="login_input login_password" name="password" placeholder="Password"><br>
       <div class="login_buttons">
-        <button type="button" name="button" class="info_button">i</button>
-          <!-- <span class="info_button">i</span> -->
-      <input type="submit" value="Login" />
-
-  </div>
+        <button type="button" name="button" class="info_button login_button">info</button>
+        <input type="submit" value="Login" class="login_button"/>
+      </div>
   </form>
+
   <p class="login_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 </div>
 <script src="login.js"></script>
