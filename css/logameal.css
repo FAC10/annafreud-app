@@ -18,14 +18,6 @@
   border: .05em solid black;
 }
 
-#food_input {
-  width: 90%;
-}
-
-#what_happened {
-  display: none;
-}
-
 .logameal_questions {
   margin-bottom: 2em;
 }
@@ -34,4 +26,16 @@
   background: silver;
   padding: .3em;
   line-height: 1.5em;
+}
+
+#food_input {
+  width: 90%;
+}
+
+#what_happened {
+  display: none;
+}
+
+#current_time_input {
+  width: 38%;
 }
