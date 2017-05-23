@@ -5,27 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./css/main.css" type="text/css">
+  <link rel="stylesheet" href="./css/landing.css" type="text/css">
   <title>Document</title>
 </head>
 <body>
 
-  <form action="./logameal.html">
-      <input type="submit" value="Log a meal" />
-  </form>
+  <header class="landing_header">
 
-  <form action="./calendar.html">
-      <input type="submit" value="Calendar view" />
-  </form>
+    <div class="header_calendar">
+      <a href="calendar.html"><img src="images/header_menu.png" alt="" class="header_calendar"></a></br>
+    </div>
 
-  <form action="./settings.html">
-      <input type="submit" value="Settings" />
-  </form>
+    <div class="header_menu">
+      <img src="images/header_profile.png" alt="your profile image" class="header_profile_pic"></br>
+      <div class="header_menu_items">
+        <a href="settings.html" class="header_menu_item">Settings</a></br>
+        <a href="./login.html" class="header_menu_item">Log out</a>
+      </div>
+    </div>
 
-  <form action="./login.html">
-      <input type="submit" value="Log out" />
-  </form>
+  </header>
 
+  <div class="container">
 
+    <h1 class="landing_greeting">Hello, Kim.</h1>
+    <a href="logameal.html" class="logameal_button">Log a meal</a>
 
+  </div>
+
+  <script src="landing.js"></script>
 </body>
 </html>

@@ -1,0 +1,38 @@
+.landing_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.header_calendar {
+  height: 2em;
+}
+
+.header_profile_pic {
+  height: 2.7em;
+}
+
+.header_menu_items {
+  visibility: hidden;
+  background: silver;
+  padding: .3em;
+  line-height: 1.5em;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.logameal_button {
+  background: silver;
+  padding: .3em;
+}
