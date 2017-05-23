@@ -1,0 +1,92 @@
+body {
+	background: rgb(255, 243, 204);
+	font: 0.8em 'Lato', sans-serif;
+	padding: 1em;
+}
+
+table {
+	border-collapse: collapse;
+	/*border-spacing: 0;*/
+	padding: 1em;
+}
+
+td {
+	padding: 0.5em;
+}
+
+.log-day {
+  color: #555;
+  text-decoration: none;
+}
+
+.container {
+	padding: 0.5em;
+  left: 50%;
+  position: fixed;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.calendar-container {
+	position: relative;
+	padding: 0.5em;
+}
+
+.calendar-container header {
+	border-radius: 0.5em 0.5em 0 0;
+	background: rgb(249, 188, 89);
+	color: #fff;
+	padding: 2em 1em;
+}
+
+.day {
+	font-size: 8em;
+	font-weight: 900;
+	line-height: 1em;
+}
+
+.month {
+	text-align: center;
+	font-size: 2em;
+	line-height: 1em;
+	text-transform: lowercase;
+}
+
+.calendar {
+	background: #fff;
+	border-radius: 0 0 1em 1em;
+	color: #555;
+	display: inline-block;
+	padding: 0.5em;
+}
+
+.calendar thead {
+	color: rgb(249, 188, 89);
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.calendar td {
+	padding: .5em 1em;
+	text-align: center;
+}
+
+.calendar tbody td:hover {
+	background: #cacaca;
+	color: #fff;
+}
+
+.current-day {
+	background-color: rgb(249, 188, 89);
+  color: #fff;
+}
+
+.session-day {
+  color: rgb(249, 188, 89);
+  text-decoration: none;
+}
+
+.prev-month,
+.next-month {
+	color: #cacaca;
+}
