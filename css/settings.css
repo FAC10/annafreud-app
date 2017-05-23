@@ -39,5 +39,10 @@
 }
 
 .info_icon {
-  margin-left: .5em; 
+  margin-left: .5em;
+}
+
+.settings_switch {
+  background: silver;
+  padding: .2em;
 }
