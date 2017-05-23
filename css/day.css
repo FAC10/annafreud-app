@@ -1,0 +1,17 @@
+* {
+  background: rgb(249, 188, 89);
+  font-family: 'Coming Soon', sans-serif;
+  color: white;
+}
+
+header {
+  text-align: center;
+  margin: 1em 0 1em 0;
+  font-size: 2em;
+}
+
+.food-log {
+  margin-bottom: 0.5em;
+  border-style: solid;
+  padding: 0.5em;
+}

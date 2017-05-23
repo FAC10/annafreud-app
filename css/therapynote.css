@@ -1,0 +1,16 @@
+* {
+  background: rgb(249, 188, 89);
+  font-family: 'Coming Soon', sans-serif;
+  color: white;
+}
+
+.notes {
+  margin-top: 1.5em;
+  border-style: solid;
+  padding: 0.5em;
+}
+
+.session-date {
+  text-align: center;
+  font-size: 1.5em;
+}
