@@ -9,3 +9,19 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.header_profile_pic {
+  height: 3em;
+}
+
+.header_menu_items {
+  visibility: hidden;
+  background: #369081;
+  border-radius: .1em;
+  padding: .3em;
+  line-height: 2em;
+}
+
+.header_menu {
+  text-align: right;
+}

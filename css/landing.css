@@ -20,10 +20,12 @@ body {
 }
 
 .header_calendar {
-  height: 4em;
+  height: 2.8em;
 }
 
-.header_profile_pic {
+/* ----> added below to main.css
+
+/*.header_profile_pic {
   height: 4em;
 }
 
@@ -37,7 +39,7 @@ body {
 
 .header_menu {
   text-align: right;
-}
+}*/
 
 /*.logameal_button {
   background: silver;
