@@ -1,16 +1,43 @@
-* {
-  background: rgb(249, 188, 89);
-  font-family: 'Coming Soon', sans-serif;
-  color: white;
+.therapy_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 1em 0 1em;
 }
 
-.notes {
+.back_button {
+  height: 3em;
+}
+
+.container {
+  margin: 0 auto;
   margin-top: 1.5em;
-  border-style: solid;
-  padding: 0.5em;
+  max-width: 80%;
+  border: .05em solid white;
+  padding: 0em 1em 1em 1em;
 }
 
-.session-date {
+.container_day {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+  text-align: center; 
+}
+
+.header_menu_items {
+  display: none;
+}
+
+.therapy_heading {
+  margin: 0em;
+  margin-top: 1em;
   text-align: center;
   font-size: 1.5em;
+}
+
+.therapy_list {
+  list-style-type: circle;
+  margin-left: -1em;
 }
