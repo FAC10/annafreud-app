@@ -9,11 +9,6 @@
 	height: 2.7em;
 }
 
-.header_menu_items {
-	visibility: visible;
-	display: none;
-}
-
 .calendar {
 	border-collapse: collapse;
 }
@@ -28,7 +23,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-top: 1.5em;
+	margin-top: -3.5em;
 }
 
 .calendar-container header {
@@ -106,7 +101,8 @@
 	max-width: 80%;
 	text-align: center;
 	display: none;
-	margin-top: 2em;
+	margin-top: 1em;
+	font-size: .8em;
 }
 
 .select_button, .send_button {

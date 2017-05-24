@@ -20,6 +20,8 @@ a {
   border-radius: .1em;
   padding: .3em;
   line-height: 2em;
+  position: relative;
+  z-index: 1; 
 }
 
 .header_menu {

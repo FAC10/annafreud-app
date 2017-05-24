@@ -16,12 +16,16 @@
 }
 
 .container {
-  margin: 0 auto;
+  margin: -1.5em auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  border: .05em solid white;
+  padding: 0em 1em 1em 1em;
+  max-width: 75%;
+  border-radius: .2em;
 }
 
 .header_menu {
@@ -31,4 +35,9 @@
 .edit {
   height: 3em;
   width: auto;
+}
+
+.day_heading {
+  margin: 0;
+  margin-top: 1em;
 }

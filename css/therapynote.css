@@ -11,10 +11,14 @@
 
 .container {
   margin: 0 auto;
-  margin-top: 1.5em;
-  max-width: 80%;
+  max-width: 75%;
   border: .05em solid white;
   padding: 0em 1em 1em 1em;
+  border-radius: .2em;
+}
+
+.container_top {
+  margin-top: -3em;
 }
 
 .container_day {
@@ -22,12 +26,9 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-top: 1.5em;
   margin-bottom: 2em;
-  text-align: center; 
-}
-
-.header_menu_items {
-  display: none;
+  text-align: center;
 }
 
 .therapy_heading {
