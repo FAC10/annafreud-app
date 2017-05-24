@@ -23,9 +23,10 @@
 }
 
 .logameal_submit {
-  background: silver;
-  padding: .3em;
-  line-height: 1.5em;
+  padding: .1em .3em;
+  border-radius: .2em;
+  background: #6dd2a6;
+  box-shadow: .1em .1em .05em #369081;
 }
 
 #food_input {
