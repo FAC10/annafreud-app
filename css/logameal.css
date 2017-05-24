@@ -39,3 +39,7 @@
 #current_time_input {
   width: 38%;
 }
+
+#canvas {
+  display: none;
+}
