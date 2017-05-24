@@ -37,9 +37,16 @@
 }
 
 #current_time_input {
-  width: 38%;
+  width: 80%;
+  /*height: 1.3em;*/
+  font-family: inherit;
+  font-size: 1em;
 }
 
 #canvas {
   display: none;
+}
+
+body {
+  font-size: 1.3em;
 }
