@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css" type="text/css">
   <link rel="stylesheet" href="./css/logameal.css" type="text/css">
   <title>Document</title>
@@ -17,20 +18,40 @@
   <div class="container">
     <article class="logameal_questions">
       <p>Time</p><input type="text" class="logameal_input" id="current_time_input" value="">
+<br>
+
+
+
       <p>What did you have to eat or drink? (type and amount)</p>
-      <textarea rows="3" columns="1" class="logameal_input" id="food_input"></textarea>
+      <p>You can type in the answer below or take a picture <button id="camera_button" class="header_back"><img src="./images/photo-camera.png" class="header_back"></button></p>
+
+      <div class="camera">
+        <video id="video">Video stream not available.</video><br>
+        <button id="startbutton"><img src="./images/photo-camera.png" class="camera_big"></button>
+      </div>
+      <canvas id="canvas">
+    </canvas>
+    <div class="output">
+      <img id="photo" alt="The screen capture will appear in this box.">
+      <br>
+    </div>
+
+    <div>
+
+      <textarea rows="5" columns="1" class="logameal_input" id="food_input"></textarea>
       <p>Did you feel as though you had too much?</p>No<input type="range" min="0" max="10">Yes
       <p>Did you actually eat too much?</p>No<input type="range" min="0" max="10">Yes</br>
       <p>Did you manage to keep it down?</p><input type="checkbox" class="logameal_input" value="yes" id="yes">Yes<input type="checkbox" class="logameal_input" value="no" id="no">No</br>
        <div id="what_happened">
       <p>What happened?</p><input type="checkbox" class="logameal_input" value="yes">Vomit<input type="checkbox" class="logameal_input" value="no">Laxatives</br>
     </div>
-      <p>Where were you and what were you doing?</p><textarea class="logameal_input" rows="2" cols="1" id="food_input"></textarea></br>
-      <p>What thoughts and feelings did you have?</p><textarea class="logameal_input" rows="3" cols="1" id="food_input"></textarea></br>
+      <p>Where were you and what were you doing?</p><textarea class="logameal_input" rows="4" cols="1" id="food_input"></textarea></br>
+      <p>What thoughts and feelings did you have?</p><textarea class="logameal_input" rows="5" cols="1" id="food_input"></textarea></br>
     </article>
     <a href="./logged.html" class="logameal_submit">Submit</a>
   </div>
 
 <script src="js/logameal.js"></script>
+<script src="js/photo.js"></script>
 </body>
 </html>

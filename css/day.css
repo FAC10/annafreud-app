@@ -1,17 +1,34 @@
-* {
-  background: rgb(249, 188, 89);
-  font-family: 'Coming Soon', sans-serif;
-  color: white;
-}
-
-header {
-  text-align: center;
-  margin: 1em 0 1em 0;
-  font-size: 2em;
+.day_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em 1em 0 1em;
 }
 
 .food-log {
   margin-bottom: 0.5em;
   border-style: solid;
   padding: 0.5em;
+}
+
+.back_button {
+  height: 3em;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header_menu {
+  margin-bottom: none;
+}
+
+.edit {
+  height: 3em;
+  width: auto;
 }
