@@ -1,42 +1,24 @@
-body {
-	background: rgb(255, 243, 204);
-	font: 0.8em 'Lato', sans-serif;
-	padding: 1em;
-}
-
-table {
+.calendar {
 	border-collapse: collapse;
-	/*border-spacing: 0;*/
-	padding: 1em;
-}
-
-td {
-	padding: 0.5em;
 }
 
 .log-day {
-  color: #555;
+  color: white;
   text-decoration: none;
 }
 
 .container {
-	padding: 0.5em;
-  left: 50%;
-  position: fixed;
-  top: 30%;
-  transform: translate(-50%, -50%);
-}
-
-.calendar-container {
-	position: relative;
-	padding: 0.5em;
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  /*transform: translate(-50%, -50%);*/
 }
 
 .calendar-container header {
 	border-radius: 0.5em 0.5em 0 0;
-	background: rgb(249, 188, 89);
 	color: #fff;
-	padding: 2em 1em;
+	padding: 1em;
 }
 
 .day {
@@ -47,46 +29,39 @@ td {
 
 .month {
 	text-align: center;
-	font-size: 2em;
-	line-height: 1em;
+	font-size: 1.5em;
 	text-transform: lowercase;
 }
 
 .calendar {
-	background: #fff;
-	border-radius: 0 0 1em 1em;
-	color: #555;
-	display: inline-block;
-	padding: 0.5em;
+	color: white;
 }
 
 .calendar thead {
-	color: rgb(249, 188, 89);
+	color: #fcf1eb;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
 .calendar td {
-	padding: .5em 1em;
+	padding: .2em .3em;
 	text-align: center;
 }
 
-.calendar tbody td:hover {
-	background: #cacaca;
-	color: #fff;
-}
-
 .current-day {
-	background-color: rgb(249, 188, 89);
+	background-color: #ad6cb7;
+	border-radius: .2em; 
   color: #fff;
 }
 
 .session-day {
-  color: rgb(249, 188, 89);
+	border: .05em solid white;
+	border-radius: 50%;
+	padding: .2em;
   text-decoration: none;
 }
 
 .prev-month,
 .next-month {
-	color: #cacaca;
+	color: #fcf1eb;
 }

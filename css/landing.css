@@ -1,15 +1,15 @@
 body {
-  background-image: url('../images/lscapepurple.png');
+  /*background-image: url('../images/lscapepurple.png');
   background-repeat: no-repeat;
-  background-position: center bottom;
-  height: 100vh; 
+  background-position: center bottom;*/
+  height: 100vh;
 }
 
 .landing_header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1em;
+  padding: 1em 1em 0em 1em;
 }
 
 .container {
@@ -17,36 +17,45 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 3em;
 }
 
 .header_calendar {
-  height: 2em;
+  height: 4em;
 }
 
 .header_profile_pic {
-  height: 2.7em;
+  height: 4em;
 }
 
 .header_menu_items {
   visibility: hidden;
-  background: silver;
+  background: #369081;
+  border-radius: .1em;
   padding: .3em;
-  line-height: 1.5em;
+  line-height: 2em;
 }
 
 .header_menu {
   text-align: right;
 }
 
-.logameal_button {
+/*.logameal_button {
   background: silver;
   padding: .3em;
   background: none;
+  height: 5em;
+}*/
+
+.logameal_text {
+  padding: .1em .3em;
+  border-radius: .2em;
+  background: #6dd2a6;
+  box-shadow: .1em .1em .05em #369081;
 }
 
 .landing_greeting {
-  margin: .5em 2em;
-  font-size: 1em;
+  margin: 0em .5em .5em .5em;
+  font-size: 1.8em;
   text-align: center;
+  line-height: 2.1em;
 }

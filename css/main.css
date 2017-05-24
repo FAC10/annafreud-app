@@ -1,5 +1,8 @@
 body, html {
   margin: 0 auto;
+  font-family: 'Coming Soon', helvetica;
+  background: #50bbc5;
+  color: white;
 }
 
 a {
