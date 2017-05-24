@@ -11,7 +11,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 1em;
+  margin: 0 1em 1em 1em;
 }
 
 .logameal_input {
@@ -49,4 +49,23 @@
 
 body {
   font-size: 1.3em;
+}
+
+#video, #photo, #startbutton {
+  display: none;
+  margin: 0 auto;
+}
+
+#video, #photo {
+  /*border-radius: 50%;*/
+  width: 150;
+  height:150;
+}
+
+.camera_big {
+  height: 4em;
+}
+
+textarea {
+  font-size:1em;
 }

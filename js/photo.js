@@ -1,11 +1,14 @@
 
-  var width = 150;    // We will scale the photo width to this
-  // var height = 0;     // This will be computed based on the input stream
+  var width = 200;    // We will scale the photo width to this
+  // var height = 150;     // This will be computed based on the input stream
 
   var streaming = false;
 
    document.getElementById('camera_button').addEventListener('click', () => {
      startup();
+     document.getElementById('video').style.display = 'block';
+     document.getElementById('startbutton').style.display = 'block';
+     document.getElementById('photo').style.display = 'none';
    });
   // var video = null;
   // var canvas = null;
@@ -41,6 +44,9 @@
 
     startbutton.addEventListener('click', function(ev){
       takepicture();
+      video.style.display = 'none';
+      photo.style.display = 'block';
+      startbutton.style.display = 'none';
       ev.preventDefault();
     }, false);
     clearphoto();
