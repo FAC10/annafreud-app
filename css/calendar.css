@@ -28,13 +28,13 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-top: 1.5em;
 }
 
 .calendar-container header {
 	border-radius: 0.5em 0.5em 0 0;
 	color: #fff;
 	padding: 1em;
-
 }
 
 .month {
@@ -98,21 +98,18 @@
 	height: .5em;
 }
 
-.send_button {
-	height: 4em;
-	margin-top: 2em;
-}
-
 .info_button {
-	height: 1.2em;
+	height: 1.5em;
 }
 
 .calendar_text {
-	max-width: 90%;
+	max-width: 80%;
 	text-align: center;
+	display: none;
+	margin-top: 2em;
 }
 
-.select_button {
+.select_button, .send_button {
 	font: inherit;
 	color: inherit;
 	text-align: right;
@@ -135,5 +132,12 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-top: .3em;
+	margin-top: .8em;
+}
+
+.calendar_button {
+	background: #6dd2a6;
+	padding: 0em .4em;
+	border-radius: .1em;
+	box-shadow: .1em .1em .05em #369081;
 }
