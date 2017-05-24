@@ -98,11 +98,11 @@
 }
 
 .calendar_text {
-	max-width: 80%;
+	max-width: 85%;
 	text-align: center;
 	display: none;
 	margin-top: 1em;
-	font-size: .8em;
+	font-size: .9em;
 }
 
 .select_button, .send_button {

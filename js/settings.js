@@ -1,6 +1,5 @@
-var hidden = document.querySelector('.therapy_hidden');
-var infoIcon = document.querySelector('.info_icon');
+var backButton = document.querySelector('.header_back');
 
-infoIcon.addEventListener('click', () => {
-  hidden.style.visibility = hidden.style.visibility === 'hidden' ? 'visible' : 'hidden';
+backButton.addEventListener('click', () => {
+  window.history.back();
 })
