@@ -11,14 +11,29 @@
 </head>
 <body>
 
-  <header>
-    <a href="./landing.html" class="">Back</a>
+  <header class="calendar_header">
+
+    <div>
+    <a href="./landing.html"><img src="./images/back.png" alt="go back" class="header_home"></a>
+    </div>
+
+    <div class="header_menu">
+      <img src="images/header_profile.svg" alt="your profile image" class="header_profile_pic"></br>
+      <div class="header_menu_items">
+        <a href="settings.html" class="header_menu_item">Settings</a></br>
+        <a href="./login.html" class="header_menu_item">Log out</a>
+      </div>
+
   </header>
 
   <div class="container">
 		<div class="calendar-container">
 			<header>
-				<div class="month">May 2017</div>
+				<div class="month">
+          <div><img src="images/calendar_arrow_back.png" alt="go to next month" class="calendar_arrow"></div>
+          <div>May 2017</div>
+          <div><img src="images/calendar_arrow_fwd.png" alt="go to next month" class="calendar_arrow"></div>
+          </div>
 			</header>
 
 			<table class="calendar">
@@ -42,40 +57,40 @@
 				<tbody>
 
 					<tr>
-						<td><a class="log-day" href="./day.html">1</td>
-						<td><a class="log-day" href="./day.html">2</td>
-						<td>3</td>
-						<td>4</td>
-            <td>5</td>
-						<td>6</td>
-						<td>7</td>
+            <td><a href="day.html">1</a></td>
+            <td class="therapy_day"><a href="therapynote.html">2</a></td>
+						<td><a href="day.html">3</a></td>
+						<td><a href="day.html">4</a></td>
+            <td><a href="day.html">5</a></td>
+						<td><a href="day.html">6</a></td>
+						<td><a href="therapynote.html">7</a></td>
 					</tr>
 
 					<tr>
-						<td>8</td>
-						<td>9</td>
-						<td>10</td>
-						<td>11</td>
-            <td>12</td>
-						<td>13</td>
-						<td>14</td>
+						<td class="therapy_day"><a href="therapynote.html">8</a></td>
+						<td><a href="day.html">9</a></td>
+						<td><a href="day.html">10</a></td>
+						<td><a href="day.html">11</a></td>
+            <td><a href="day.html">12</a></td>
+						<td><a href="day.html">13</a></td>
+						<td><a href="day.html">14</a></td>
 					</tr>
 
 					<tr>
-						<td><a class="session-day" href="./day.html">15</td>
-						<td>16</td>
-						<td>17</td>
-            <td>18</td>
-            <td><a class="session-day" href="./therapynote.html">19</td>
-						<td>20</td>
-						<td>21</td>
+						<td class="therapy_day"><a href="therapynote.html">15</a></td>
+						<td><a href="day.html">16</a></td>
+						<td><a href="day.html">17</a></td>
+            <td><a href="day.html">18</a></td>
+            <td><a href="day.html">19</a></td>
+						<td><a href="day.html">20</a></td>
+						<td><a href="day.html">21</a></td>
 					</tr>
 
 					<tr>
-						<td>22</td>
-						<td>23</td>
-						<td>24</td>
-						<td>25</td>
+            <td><a href="day.html">22</a></td>
+            <td class="therapy_day"><a href="therapynote.html">23</a></td>
+						<td><a href="day.html">24</a></td>
+						<td><a href="day.html">25</a></td>
             <td class="current-day">26</td>
             <td>27</td>
 						<td>28</td>
@@ -84,7 +99,7 @@
 					<tr>
             <td>29</td>
 						<td>30</td>
-						<td>31</td>
+            <td class="therapy_day"><a href="therapynote.html">31</a></td>
 						<td class="next-month">1</td>
             <td class="next-month">2</td>
             <td class="next-month">3</td>
@@ -95,11 +110,28 @@
 
 			</table>
 
-			<!-- <div class="ring-left"></div>
-			<div class="ring-right"></div> -->
+
+  <div class="calendar_caption">
+    <div class="calendar_key">
+      <div class="selected">
+      </div>
+       = therapy days
+    </div>
+    <div class="select_button">select</div>
+      <img src="images/info.svg" alt="information" class="info_button">
+  </div>
 
 		</div> <!-- end calendar-container -->
 
+    <div class="calendar_text">
+      <a href="sent.html"><img src="images/send.png" alt="click to send" class="send_button"></a>
+      <img src="images/info.svg" alt="information" class="info_button">
+      <p>view previous logs</p>
+      <p class="send_info_text">select days to send to your therapist before your next session</p>
+    </div>
+
+
 	</div> <!-- end container -->
+  <script src="js/calendar.js" type="text/javascript"></script>
 </body>
 </html>

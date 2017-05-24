@@ -1,3 +1,19 @@
+.calendar_header {
+	padding: 1em 1em 0 1em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.header_home {
+	height: 2.7em;
+}
+
+.header_menu_items {
+	visibility: visible;
+	display: none;
+}
+
 .calendar {
 	border-collapse: collapse;
 }
@@ -12,13 +28,19 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-  /*transform: translate(-50%, -50%);*/
 }
 
 .calendar-container header {
 	border-radius: 0.5em 0.5em 0 0;
 	color: #fff;
 	padding: 1em;
+
+}
+
+.month {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .day {
@@ -50,8 +72,14 @@
 
 .current-day {
 	background-color: #ad6cb7;
-	border-radius: .2em; 
+	border-radius: 50%;
   color: #fff;
+}
+
+.therapy_day {
+	border: .05em solid white;
+	border-radius: 50%;
+	padding: .2em;
 }
 
 .session-day {
@@ -64,4 +92,48 @@
 .prev-month,
 .next-month {
 	color: #fcf1eb;
+}
+
+.calendar_arrow {
+	height: .5em;
+}
+
+.send_button {
+	height: 4em;
+	margin-top: 2em;
+}
+
+.info_button {
+	height: 1.2em;
+}
+
+.calendar_text {
+	max-width: 90%;
+	text-align: center;
+}
+
+.select_button {
+	font: inherit;
+	color: inherit;
+	text-align: right;
+	margin-right: .5em;
+}
+
+.selected {
+	border: .05em solid white;
+	height: 1em;
+	width: 1em;
+	margin-right: .4em;
+}
+
+.calendar_key {
+	display: flex;
+	flex-direction: row;
+}
+
+.calendar_caption {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: .3em;
 }
