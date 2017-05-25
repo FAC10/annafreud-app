@@ -15,26 +15,27 @@ body, html {
 }
 
 .login_input {
-  border: 0.07em solid white;
+  border: 0.07em solid #50bbc5;
   border-radius: .2em;
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: 'Coming Soon', cursive;
   background: none;
   padding-left: .3em;
+  width: 18em;
 }
 
 .login_input::placeholder {
-  color: white;
+  color: #ad6cb7;
   font-size: 1em;
 }
 
 .login_input:focus {
-  border: 0.15em solid white;
+  border: 0.15em solid #50bbc5;
   outline: none;
 }
 
 .login_input:focus::placeholder {
-  color: #7190d4;
+  color: white;
 }
 
 .login_email {
@@ -47,6 +48,7 @@ body, html {
 
 .login_buttons {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-top: .7em;
 }
@@ -54,13 +56,29 @@ body, html {
 .login_info {
   display: none;
   font-size: .9em;
-  max-width: 75%;
   font-family: 'Coming Soon', cursive;
-  color: #7190d4;
+  color: white;
+  background: #50bbc5;
+  border-radius: .2em;
+  padding: .5em 1.2em;
+  width: 18em;
 }
 
-.info_button, .login_button {
-  height: 1.5em;
+.info_button {
+  font-style: italic;
+  color: #7190d4;
+  font-size: .9em;
+}
+
+.login_button {
+  background: #6dd2a6;
+  padding: .1em .4em;
+  box-shadow: .1em .1em .05em #369081;
+  border-radius: .2em;
+  margin-right: .1em;
+  margin-bottom: .7em;
+  text-align: center;
+  font-size: 1.2em;
 }
 
 #authentication_error {
