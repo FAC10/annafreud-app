@@ -11,6 +11,7 @@ body, html {
 }
 
 .login_logo {
+  margin-top: 2em;
   width: 13em;
 }
 
@@ -39,22 +40,20 @@ body, html {
 }
 
 .login_email {
-
   color: inherit;
-  margin-top: ;
 }
 
 .login_password {
   margin-top: 1em;
   color: inherit;
-  margin-top: .7em;
+  margin-top: .9em;
 }
 
 .login_buttons {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: .7em;
+  margin-top: .9em;
 }
 
 .login_info {
@@ -88,7 +87,7 @@ body, html {
 
 #authentication_error {
   visibility: hidden;
-  color: #ad6cb7;
-  margin: .5em;
+  color: #7190d4;
   font-style: italic;
+  text-align: left;
 }
