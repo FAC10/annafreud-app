@@ -59,6 +59,7 @@ body, html {
   font-family: 'Coming Soon', cursive;
   color: white;
   background: #50bbc5;
+  box-shadow: .1em .1em .05em #369081;
   border-radius: .2em;
   padding: .5em 1.2em;
   width: 18em;
