@@ -7,12 +7,20 @@
   margin-left: .4em;
 }
 
-.container {
+/*.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 1em;
+}*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1em 1em 1em;
 }
 
 .settings_section {
@@ -34,15 +42,16 @@
   border-radius: .2em;
 }
 
-.save {
-  padding: 0;
-  margin: 0;
-  margin: 1em;
+.save_setting {
+  margin-left: 7em;
+  margin-right:7em;
   text-align: center;
-  font-size: 1.5em;
+  align-items: center;
+  justify-content: center;
+  padding: .1em .3em;
+  border-radius: .2em;
   background: #6dd2a6;
   box-shadow: .1em .1em .05em #369081;
-  border: none;
 }
 
 .settings_switch {
@@ -53,9 +62,6 @@
 .settings_on {
   background: #6dd2a6;
   box-shadow: .1em .1em .05em #369081;
-}
-
-.settings_off {
 }
 
 .settings_text {

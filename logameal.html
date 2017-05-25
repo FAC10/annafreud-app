@@ -19,11 +19,18 @@
     <article class="logameal_questions">
       <p class="question">Time</p>
       <input type="text" class="logameal_input" id="current_time_input" value="time"><br>
-      <p class="question">What did you have to eat or drink? (type and amount)</p><br>
-      <p>You can type in the answer below or take a picture <button id="camera_button" class="header_back"><img src="./images/photo-camera.png" class="header_back"></button></p>
+      <p class="question">What did you have to eat or drink? (type and amount)</p><textarea class="logameal_input" rows="4" cols="1" id="food_input"></textarea><br>
+    <div>
+      <p>You can type in the answer below or take a picture!
+        <!-- <button id="camera_button" class="header_back"> -->
+          <img id="camera_small" src="./images/camera.svg"></p>
+        <!-- </button> -->
+    </div>
       <div class="camera">
         <video id="video">Video stream not available.</video><br>
-        <button id="startbutton"><img src="./images/photo-camera.png" class="camera_big"></button>
+        <!-- <button id="startbutton"> -->
+          <img id="startbutton" src="./images/camera.svg" class="camera_big">
+        <!-- </button> -->
       </div>
 
       <canvas id="canvas">

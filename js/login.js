@@ -5,16 +5,14 @@ var login_form = document.getElementById("login_form");
 var authentication_error = document.getElementById("authentication_error");
 
 
-
-
 info_button.addEventListener('click', () => {
   login_info.style.display = login_info.style.display === 'none' ? 'block' : 'none';
 })
 
 login_button.addEventListener('click', () =>{
-  var email = document.getElementById("login_email").value;
+  var email = document.getElementById("login_email").value.toUpperCase();
   var password = document.getElementById("login_password").value;
-if (email === 'karima@gmail.com' && password === 'password' ) {
+if (email === 'TESTUSER@GMAIL.COM' && password === '1234' ) {
 login_form.submit();
 }
 else {
