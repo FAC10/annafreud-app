@@ -4,7 +4,7 @@
 
   var streaming = false;
 
-   document.getElementById('camera_button').addEventListener('click', () => {
+   document.getElementById('camera_small').addEventListener('click', () => {
      startup();
      document.getElementById('video').style.display = 'block';
      document.getElementById('startbutton').style.display = 'block';
