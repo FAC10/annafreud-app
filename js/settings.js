@@ -7,6 +7,8 @@ var add_second_reminder = document.getElementById("add_second_reminder");
 var add_third_reminder = document.getElementById("add_third_reminder");
 var add_fourth_reminder = document.getElementById("add_fourth_reminder");
 var add_fifth_reminder = document.getElementById("add_fifth_reminder");
+var on_switch = document.getElementById("on_switch");
+var off_switch = document.getElementById("off_switch");
 
 backButton.addEventListener('click', () => {
   window.history.back();
@@ -34,3 +36,13 @@ add_fifth_reminder.addEventListener('click', () => {
   fifth_reminder.style.display = 'block';
   add_fifth_reminder.style.display = 'none';
 });
+
+off_switch.addEventListener('click', ()=>{
+  on_switch.className = 'settings_switch settings_off';
+  off_switch.className = 'settings_switch settings_on';
+})
+
+on_switch.addEventListener('click', ()=>{
+  on_switch.className = 'settings_switch settings_on';
+  off_switch.className = 'settings_switch settings_off';
+})

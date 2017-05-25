@@ -8,6 +8,7 @@
 
 .container {
   display: flex;
+  max-width: 85%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -28,7 +29,7 @@
   border-radius: .2em;
   background: #6dd2a6;
   box-shadow: .1em .1em .05em #369081;
-  text-align: center; 
+  text-align: center;
 }
 
 #food_input {
