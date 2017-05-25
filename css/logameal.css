@@ -35,7 +35,8 @@ body {
 }
 
 .logameal_submit {
-  padding: .1em .3em;
+  margin-top: 1em;
+  padding: 0.2em .3em;
   border-radius: .2em;
   background: #6dd2a6;
   box-shadow: .1em .1em .05em #369081;
