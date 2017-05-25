@@ -37,11 +37,13 @@
 }
 
 .login_email {
+  color: inherit;
   margin-top: ;
 }
 
 .login_password {
   margin-top: 1em;
+  color: inherit;
 }
 
 .login_buttons {
