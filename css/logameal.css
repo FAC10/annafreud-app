@@ -6,6 +6,12 @@
   height: 1em;
 }
 
+#camera_small {
+  height: 2em;
+  margin-bottom: -0.5em;
+}
+
+
 .container {
   display: flex;
   flex-direction: column;
@@ -19,16 +25,16 @@
   border-radius: .2em;
   background: none;
   padding: .5em;
+  color: white;
+  font-family: inherit;
+  font-size: 1.2em;
 }
 
 .logameal_submit {
   padding: .1em .3em;
-  width: 100%;
-  margin: .5em 0 2em 0;
   border-radius: .2em;
   background: #6dd2a6;
   box-shadow: .1em .1em .05em #369081;
-  text-align: center; 
 }
 
 #food_input {
@@ -43,7 +49,7 @@
   width: 80%;
   /*height: 1.3em;*/
   font-family: inherit;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 #canvas {
