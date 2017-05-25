@@ -10,9 +10,9 @@ info_button.addEventListener('click', () => {
 })
 
 login_button.addEventListener('click', () =>{
-  var email = document.getElementById("login_email").value;
+  var email = document.getElementById("login_email").value.toUpperCase();
   var password = document.getElementById("login_password").value;
-if (email === 'testuser@gmail.com' && password === '1234' ) {
+if (email === 'TESTUSER@GMAIL.COM' && password === '1234' ) {
 login_form.submit();
 }
 else {
