@@ -1,16 +1,17 @@
+body, html {
+  background: #bdfae9;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3.5em 0em;
+  margin: 0em 0em;
 }
 
 .login_logo {
-  width: 6em;
-  border: .07em solid white;
-  border-radius: 50%;
-  padding: 1em;
+  width: 13em;
 }
 
 .login_input {
@@ -37,26 +38,25 @@
 }
 
 .login_email {
-  margin-top: ;
+  margin-top: .7em;
 }
 
 .login_password {
-  margin-top: 1em;
+  margin-top: .7em;
 }
 
 .login_buttons {
   display: flex;
   justify-content: space-between;
-  margin-top: 1em;
+  margin-top: .7em;
 }
 
 .login_info {
   display: none;
-  font-size: 1em;
-  max-width: 80%;
+  font-size: .9em;
+  max-width: 75%;
   font-family: 'Coming Soon', cursive;
-  color: white;
-  text-align: center;
+  color: #7190d4;
 }
 
 .info_button, .login_button {
