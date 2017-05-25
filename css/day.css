@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  margin: -1.5em auto;
+  margin: -3em 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,7 +29,6 @@ body {
   text-align: center;
   border: .05em solid white;
   padding: 0em 1em 1em 1em;
-  max-width: 75%;
   border-radius: .2em;
 }
 
