@@ -1,3 +1,8 @@
+body {
+  height: 100vh;
+}
+
+
 #top, #bottom, #left, #right {
 	background: #a5ebff;
 	position: fixed;

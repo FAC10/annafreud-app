@@ -1,3 +1,7 @@
+body {
+  height: 100vh; 
+}
+
 .settings_header {
   padding: 1em;
 }
