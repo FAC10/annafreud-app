@@ -3,7 +3,7 @@
 }
 
 .header_back {
-  height: 2em;
+  height: 1em;
 }
 
 .container {
@@ -15,22 +15,24 @@
 }
 
 .logameal_input {
-  border: .05em solid black;
-}
-
-.logameal_questions {
-  margin-bottom: 2em;
+  border: .05em solid white;
+  border-radius: .2em;
+  background: none;
+  padding: .5em;
 }
 
 .logameal_submit {
   padding: .1em .3em;
+  width: 100%;
+  margin: .5em 0 2em 0;
   border-radius: .2em;
   background: #6dd2a6;
   box-shadow: .1em .1em .05em #369081;
+  text-align: center; 
 }
 
 #food_input {
-  width: 90%;
+  width: 100%;
 }
 
 #what_happened {
@@ -48,25 +50,16 @@
   display: none;
 }
 
-body {
-  font-size: 1.3em;
-}
-
 #video, #photo, #startbutton {
   display: none;
   margin: 0 auto;
 }
 
 #video, #photo {
-  /*border-radius: 50%;*/
   width: 150;
   height:150;
 }
 
 .camera_big {
   height: 4em;
-}
-
-textarea {
-  font-size:1em;
 }
