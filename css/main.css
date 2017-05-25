@@ -22,9 +22,10 @@ a {
 
 .header_menu_items {
   visibility: hidden;
-  background: #369081;
+  background: #50bbc5;
+  box-shadow: .1em .1em .05em #369081;
   border-radius: .2em;
-  padding: .3em;
+  padding: .5em 1.2em;
   line-height: 2em;
   position: relative;
   z-index: 1;
