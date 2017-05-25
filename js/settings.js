@@ -1,5 +1,48 @@
 var backButton = document.querySelector('.header_back');
+var second_reminder = document.getElementById("second_reminder");
+var third_reminder = document.getElementById("third_reminder");
+var fourth_reminder = document.getElementById("fourth_reminder");
+var fifth_reminder = document.getElementById("fifth_reminder");
+var add_second_reminder = document.getElementById("add_second_reminder");
+var add_third_reminder = document.getElementById("add_third_reminder");
+var add_fourth_reminder = document.getElementById("add_fourth_reminder");
+var add_fifth_reminder = document.getElementById("add_fifth_reminder");
+var on_switch = document.getElementById("on_switch");
+var off_switch = document.getElementById("off_switch");
 
 backButton.addEventListener('click', () => {
   window.history.back();
+});
+
+add_second_reminder.addEventListener('click', () => {
+  second_reminder.style.display = 'block';
+  add_third_reminder.style.display = 'block';
+  add_second_reminder.style.display = 'none';
+});
+
+add_third_reminder.addEventListener('click', () => {
+  third_reminder.style.display = 'block';
+  add_fourth_reminder.style.display = 'block';
+  add_third_reminder.style.display = 'none';
+});
+
+add_fourth_reminder.addEventListener('click', () => {
+  fourth_reminder.style.display = 'block';
+  add_fifth_reminder.style.display = 'block';
+  add_fourth_reminder.style.display = 'none';
+});
+
+add_fifth_reminder.addEventListener('click', () => {
+  fifth_reminder.style.display = 'block';
+  add_fifth_reminder.style.display = 'none';
+});
+
+off_switch.addEventListener('click', ()=>{
+  on_switch.className = 'settings_switch settings_off';
+  off_switch.className = 'settings_switch settings_on';
+})
+
+on_switch.addEventListener('click', ()=>{
+  on_switch.className = 'settings_switch settings_on';
+  off_switch.className = 'settings_switch settings_off';
 })
