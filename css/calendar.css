@@ -70,6 +70,12 @@
 	text-align: center;
 }
 
+span {
+	padding: .2em .15em;
+	text-align: center;
+	font-size: 0.95em;
+}
+
 .current-day {
 	background-color: #ad6cb7;
 	border-radius: 50%;
@@ -114,6 +120,8 @@
 	color: inherit;
 	text-align: right;
 	margin-right: .5em;
+	box-shadow: 0 9px #999;
+	cursor: pointer;
 }
 
 .selected {
@@ -140,4 +148,14 @@
 	padding: 0em .4em;
 	border-radius: .1em;
 	box-shadow: .1em .1em .05em #369081;
+}
+
+.send_button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.select_button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
