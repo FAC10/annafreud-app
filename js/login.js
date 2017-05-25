@@ -6,7 +6,7 @@ var authentication_error = document.getElementById("authentication_error");
 
 
 info_button.addEventListener('click', () => {
-  login_info.style.display = login_info.style.display === 'none' ? 'block' : 'none';
+  login_info.style.opacity = login_info.style.opacity === '0' ? '100' : '0';
 })
 
 login_button.addEventListener('click', () =>{

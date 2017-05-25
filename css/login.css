@@ -62,7 +62,7 @@ body, html {
 }
 
 .login_info {
-  display: none;
+  opacity:0;
   font-size: .9em;
   font-family: 'Quicksand', sans-serif;
   color: white;
@@ -71,6 +71,9 @@ body, html {
   border-radius: .2em;
   padding: .5em 1.2em;
   width: 18em;
+  transition: opacity .5s ease-in-out;
+ -moz-transition: opacity .5s ease-in-out;
+ -webkit-transition: opacity .5s ease-in-out;
 }
 
 .info_button {
