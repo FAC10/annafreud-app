@@ -87,6 +87,11 @@ span {
 	padding: .2em;
 }
 
+.foodlog-day {
+	color: #c95d32;
+	text-decoration: underline;
+}
+
 .session-day {
 	border: .05em solid white;
 	border-radius: 50%;
