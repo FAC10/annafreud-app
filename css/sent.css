@@ -11,6 +11,7 @@
   align-items: center;
   flex-direction: column;
   margin-top: 3em;
+  padding: 2em;
 }
 
 .header_profile_pic {
