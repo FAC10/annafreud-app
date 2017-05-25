@@ -1,5 +1,5 @@
 body {
-  height: 100vh; 
+  height: 100vh;
 }
 
 .settings_header {
@@ -7,7 +7,7 @@ body {
 }
 
 .header_back {
-  height: 1em;
+  height: 3em;
   margin-left: .4em;
 }
 
