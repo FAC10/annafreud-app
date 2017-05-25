@@ -62,3 +62,11 @@
   font-size: 1.2em;
   line-height: 1em;
 }
+
+#second_reminder, #third_reminder, #fourth_reminder, #fifth_reminder {
+  display: none;
+}
+
+#add_third_reminder, #add_fourth_reminder, #add_fifth_reminder {
+  display:none;
+}
