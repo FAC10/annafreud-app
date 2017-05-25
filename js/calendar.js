@@ -18,7 +18,7 @@ if (select_mode === false) {
     var j= i+1;
     tds[i].innerHTML = "<a href=#>"+j+"</a>"
     tds[i].addEventListener('click', (i)=>{
-      i.target.style.color = 'yellow';
+      i.target.classList.toggle('foodlog-day');
     });
   }
 }
