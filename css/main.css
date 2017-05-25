@@ -1,6 +1,8 @@
 body, html {
   margin: 0 auto;
-  font-family: 'Coming Soon', helvetica;
+  /*font-family: 'Coming Soon', helvetica;*/
+  font-family: 'Quicksand', sans-serif;
+
   background: #52c4ce;
   color: white;
     background: -webkit-linear-gradient(#3eb3c4, #81e7d9, #7fe8da); /* For Safari 5.1 to 6.0 */

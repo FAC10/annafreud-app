@@ -19,7 +19,7 @@ body, html {
   border: 0.07em solid #50bbc5;
   border-radius: .2em;
   font-size: 1em;
-  font-family: 'Coming Soon', cursive;
+  font-family: 'Quicksand', sans-serif;
   background: none;
   padding-left: .3em;
   width: 18em;
@@ -59,7 +59,7 @@ body, html {
 .login_info {
   display: none;
   font-size: .9em;
-  font-family: 'Coming Soon', cursive;
+  font-family: 'Quicksand', sans-serif;
   color: white;
   background: #50bbc5;
   box-shadow: .1em .1em .05em #369081;

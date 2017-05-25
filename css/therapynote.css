@@ -15,10 +15,9 @@ body {
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 75%;
+  margin: 0 1em;
   border: .05em solid white;
-  padding: 0em 1em 1em 1em;
+  padding: 0em .7em 1em .7em;
   border-radius: .2em;
 }
 
@@ -31,8 +30,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 1.5em;
-  margin-bottom: 2em;
+  margin-top: 1.2em;
   text-align: center;
 }
 
