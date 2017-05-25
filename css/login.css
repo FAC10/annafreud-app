@@ -39,10 +39,14 @@ body, html {
 }
 
 .login_email {
-  margin-top: .7em;
+
+  color: inherit;
+  margin-top: ;
 }
 
 .login_password {
+  margin-top: 1em;
+  color: inherit;
   margin-top: .7em;
 }
 
