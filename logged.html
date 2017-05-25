@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
   <title>Document</title>
 </head>
-<body>
+<body class="modal_clickable">
   <!-- <header class="landing_header"> -->
     <div id="left"></div>
     <div id="right"></div>
@@ -29,8 +29,13 @@
 <div class="container">
   <p>Thank you, Kim!<br>Meal successfully logged!</p>
 <img class="success-svg" src="./images/success.svg" alt="success">
-<a href="./landing.html" class="home">Go back home</a>
 </div>
   <script src="js/header_menu.js"></script>
+  <script>
+  //GO BACK TO HOME or CALENDAR
+  document.addEventListener('click', () => {
+    window.history.go(-2);
+  })
+  </script>
 </body>
 </html>
