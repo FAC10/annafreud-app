@@ -3,7 +3,8 @@
 }
 
 .header_back {
-  height: 2em;
+  height: 1em;
+  margin-left: .4em;
 }
 
 .container {
@@ -16,33 +17,48 @@
 
 .settings_section {
   margin: 1em 2em;
-  border: .05em solid black;
-  padding: 0 .5em;
+  border: .05em solid white;
+  border-radius: .2em;
+  padding: 1em 1.5em;
   font-size: .9em;
   font-size: .8em;
 }
 
 .settings_heading {
-  font-size: 1.2em;
+  font-size: 1.7em;
+  margin: 0;
 }
 
 .settings_input {
-  border: .05em solid black;
+  border: .05em solid white;
+  border-radius: .2em;
 }
 
 .save {
+  padding: 0;
+  margin: 0;
+  margin: 1em;
   text-align: center;
-}
-
-.therapy_hidden {
-  visibility: hidden;
-}
-
-.info_icon {
-  margin-left: .5em;
+  font-size: 1.5em;
+  background: #6dd2a6;
+  box-shadow: .1em .1em .05em #369081;
+  border: none;
 }
 
 .settings_switch {
-  background: silver;
-  padding: .2em;
+  padding: 0em .2em;
+  margin: .2em;
+}
+
+.settings_on {
+  background: #6dd2a6;
+  box-shadow: .1em .1em .05em #369081;
+}
+
+.settings_off {
+}
+
+.settings_text {
+  font-size: 1.2em;
+  line-height: 1em;
 }

@@ -12,43 +12,42 @@
 <body>
 
   <header class="logameal_header">
-    <a href="./landing.html"><img src="./images/back.png" alt="" class="header_back"></a>
+    <a href="./landing.html"><img src="./images/calendar_arrow_back.png" alt="go back" class="header_back"></a>
   </header>
 
   <div class="container">
     <article class="logameal_questions">
-      <p>Time</p><input type="text" class="logameal_input" id="current_time_input" value="">
-<br>
-
-
-
-      <p>What did you have to eat or drink? (type and amount)</p>
+      <p class="question">Time</p>
+      <input type="text" class="logameal_input" id="current_time_input" value="time"><br>
+      <p class="question">What did you have to eat or drink? (type and amount)</p><br>
       <p>You can type in the answer below or take a picture <button id="camera_button" class="header_back"><img src="./images/photo-camera.png" class="header_back"></button></p>
-
       <div class="camera">
         <video id="video">Video stream not available.</video><br>
         <button id="startbutton"><img src="./images/photo-camera.png" class="camera_big"></button>
       </div>
+
       <canvas id="canvas">
     </canvas>
+
     <div class="output">
       <img id="photo" alt="The screen capture will appear in this box.">
       <br>
     </div>
 
     <div>
-
       <textarea rows="5" columns="1" class="logameal_input" id="food_input"></textarea>
-      <p>Did you feel as though you had too much?</p>No<input type="range" min="0" max="10">Yes
-      <p>Did you actually eat too much?</p>No<input type="range" min="0" max="10">Yes</br>
-      <p>Did you manage to keep it down?</p><input type="checkbox" class="logameal_input" value="yes" id="yes">Yes<input type="checkbox" class="logameal_input" value="no" id="no">No</br>
+      <p class="question">Did you feel as though you had too much?</p>No<input type="range" min="0" max="10">Yes
+      <p class="question">Did you actually eat too much?</p>No<input type="range" min="0" max="10">Yes</br>
+      <p class="question">Did you manage to keep it down?</p><input type="checkbox" class="logameal_input" value="yes" id="yes">Yes<input type="checkbox" class="logameal_input" value="no" id="no">No</br>
        <div id="what_happened">
-      <p>What happened?</p><input type="checkbox" class="logameal_input" value="yes">Vomit<input type="checkbox" class="logameal_input" value="no">Laxatives</br>
+      <p class="question">What happened?</p><input type="checkbox" class="logameal_input" value="yes">Vomit<input type="checkbox" class="logameal_input" value="no">Laxatives</br>
     </div>
-      <p>Where were you and what were you doing?</p><textarea class="logameal_input" rows="4" cols="1" id="food_input"></textarea></br>
-      <p>What thoughts and feelings did you have?</p><textarea class="logameal_input" rows="5" cols="1" id="food_input"></textarea></br>
+      <p class="question">Where were you and what were you doing?</p><textarea class="logameal_input" rows="4" cols="1" id="food_input"></textarea></br>
+      <p class="question">What thoughts and feelings did you have?</p><textarea class="logameal_input" rows="5" cols="1" id="food_input"></textarea></br>
     </article>
-    <a href="./logged.html" class="logameal_submit">Submit</a>
+    <div class="logameal_submit">
+    <a href="./logged.html">Submit</a>
+    </div>
   </div>
 
 <script src="js/logameal.js"></script>

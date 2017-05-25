@@ -17,9 +17,11 @@ a {
 .header_menu_items {
   visibility: hidden;
   background: #369081;
-  border-radius: .1em;
+  border-radius: .2em;
   padding: .3em;
   line-height: 2em;
+  position: relative;
+  z-index: 1;
 }
 
 .header_menu {

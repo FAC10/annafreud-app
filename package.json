@@ -1,0 +1,22 @@
+{
+  "name": "herewithyou",
+  "version": "1.0.0",
+  "description": "a friendly food diary",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '*.js, *.html, *.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yvonne-liu/annafreud-app.git"
+  },
+  "author": "yvonne lucy and maja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yvonne-liu/annafreud-app/issues"
+  },
+  "homepage": "https://github.com/yvonne-liu/annafreud-app#readme",
+  "devDependencies": {
+  "browser-sync": "^2.18.8"
+}
+}
