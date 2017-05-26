@@ -88,7 +88,6 @@ body {
   margin-top: .3em;
 }
 
-
 select {
   font-family: inherit;
   background: none;
@@ -101,4 +100,23 @@ select {
 select:focus {
   outline: none;
   border: 0.15em solid white;
+}
+
+#user_greeting {
+  background: none;
+  border: none;
+  border: .05em solid white;
+  border-radius: .2em;
+  margin-top: 1em;
+
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  padding: 0.1em 0.2em;
+  width: 14em;
+}
+
+#user_greeting:focus {
+  outline: none;
+  border: .15em solid white; 
 }
