@@ -46,12 +46,12 @@ body, html {
 }
 
 .login_email {
-  color: inherit;
+  color: #ad6cb7;
 }
 
 .login_password {
   margin-top: 1em;
-  color: inherit;
+  color: #ad6cb7;
   margin-top: .9em;
 }
 
@@ -84,6 +84,9 @@ body, html {
 }
 
 .login_button {
+  border-style: none;
+  outline: none;
+  color: white; 
   background: #6dd2a6;
   padding: .1em .4em;
   box-shadow: .1em .1em .05em #369081;
