@@ -18,19 +18,20 @@
     background: linear-gradient(#3eb3c4, #81e7d9, #7fe8da);
 }
 
-.dusk {
+.pacific {
   height: 100vh;
-  background: #BA5370;  /* fallback for old browsers */
-background: -webkit-linear-gradient(bottom, #F4E2D8, #BA5370);
-background: -o-linear-gradient(bottom, #F4E2D8, #BA5370);
-background: linear-gradient(to top, #F4E2D8, #BA5370);
+  background: #34e89e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-.moonrise {
+.marina {
   height: 100vh;
-  background: #bdc3c7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #1D976C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .moss {
@@ -41,9 +42,6 @@ background: -o-linear-gradient(left, #71B280, #134E5E);
 background: linear-gradient(to right, #71B280, #134E5E);
 }
 
-input[type="radio"]:checked ~ * {
-    background:pink;
-}
 
 .settings_header {
   padding: 1em;
@@ -100,7 +98,7 @@ input[type="radio"]:checked ~ * {
   justify-content: center;
   padding: .1em .3em;
   border-radius: .2em;
-  background: #A9A9A9;
+  background: #2e2d3d;
   box-shadow: .1em .1em .05em #808080;
   max-width: 100%
 }
@@ -113,6 +111,18 @@ input[type="radio"]:checked ~ * {
   border-radius: .2em;
   background: #6dd2a6;
   box-shadow: .1em .1em .05em #369081;
+  max-width: 100%
+}
+
+.elements_setting_moonrise {
+  border-style: none;
+  outline: none;
+  font-size: 0.8em;
+  color: white;
+  padding: .1em .3em;
+  border-radius: .2em;
+  background: #2e2d3d;
+  box-shadow: .1em .1em .05em #808080;
   max-width: 100%
 }
 

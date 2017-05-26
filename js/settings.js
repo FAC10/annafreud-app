@@ -68,20 +68,21 @@ on_switch.addEventListener('click', ()=>{
 });
 
 var mountainAir = document.getElementById('mountain');
-var dusk = document.getElementById('dusk');
-var moonrise = document.getElementById('moonrise');
+var pacific = document.getElementById('pacific');
+var marina = document.getElementById('marina');
 var moss = document.getElementById('moss');
 var background = document.querySelector('.background');
-var saveSetting = document.querySelector('.save_setting');
-var elementsSetting = document.querySelector('.elements_setting'); 
+// var saveSetting = document.querySelector('.save_setting');
+// var elementsSetting = document.querySelector('.elements_setting');
+var dusk = document.getElementById('dusk');
+var moss = document.getElementById('moss');
 
-dusk.addEventListener('click', function() {
-  background.className = 'dusk';
+pacific.addEventListener('click', function() {
+  background.className = 'pacific';
 });
 
-moonrise.addEventListener('click', function() {
-  background.className = 'moonrise';
-  saveSetting.className = 'save_setting_moonrise';
+marina.addEventListener('click', function() {
+  background.className = 'marina';
 });
 
 moss.addEventListener('click', function() {
