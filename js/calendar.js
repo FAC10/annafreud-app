@@ -6,7 +6,7 @@ infoButton.addEventListener('click', () => {
   select_mode_info.style.display = 'none';
 
   if (!calendarText.style.display || calendarText.style.display === 'none') {
-    calendarText.style.display = 'inline-block';
+    calendarText.style.display = 'block';
   }
   else {
     calendarText.style.display = 'none';
