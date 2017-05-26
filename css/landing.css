@@ -34,7 +34,12 @@ body {
 
 .landing_greeting {
   margin: 0em .5em .5em .5em;
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-align: center;
-  line-height: 2.1em;
+}
+
+.landing_question {
+  line-height: 2em;
+  font-size: 1.3em;
+  text-align: center;
 }
