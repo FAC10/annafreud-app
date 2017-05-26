@@ -1,5 +1,10 @@
 body, html {
+  height: 100vh;
   background: #bdfae9;
+  background: -webkit-linear-gradient(#bdfae9, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#bdfae9, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#bdfae9, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#bdfae9, white); /* Standard syntax */
 }
 
 .container {
@@ -36,7 +41,7 @@ body, html {
 }
 
 .login_input:focus::placeholder {
-  color: white;
+  color: #50bbc5;
 }
 
 .login_email {

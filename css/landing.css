@@ -1,8 +1,9 @@
 body {
-  /*background-image: url('../images/lscapepurple.png');
-  background-repeat: no-repeat;
-  background-position: center bottom;*/
+
+  background-position: center bottom;
   height: 100vh;
+  background-image: url('../images/bluescape.jpg');
+
 }
 
 .landing_header {
@@ -23,31 +24,6 @@ body {
   height: 2.8em;
 }
 
-/* ----> added below to main.css
-
-/*.header_profile_pic {
-  height: 4em;
-}
-
-.header_menu_items {
-  visibility: hidden;
-  background: #369081;
-  border-radius: .1em;
-  padding: .3em;
-  line-height: 2em;
-}
-
-.header_menu {
-  text-align: right;
-}*/
-
-/*.logameal_button {
-  background: silver;
-  padding: .3em;
-  background: none;
-  height: 5em;
-}*/
-
 .logameal_text {
   padding: .1em .3em;
   border-radius: .2em;
@@ -57,7 +33,7 @@ body {
 
 .landing_greeting {
   margin: 0em .5em .5em .5em;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
   line-height: 2.1em;
 }
