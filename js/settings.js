@@ -9,6 +9,24 @@ var add_fourth_reminder = document.getElementById("add_fourth_reminder");
 var add_fifth_reminder = document.getElementById("add_fifth_reminder");
 var on_switch = document.getElementById("on_switch");
 var off_switch = document.getElementById("off_switch");
+var user_greeting = document.getElementById("user_greeting");
+var save_button = document.getElementById("save_button");
+var personalised_greeting = localStorage.getItem('user_greeting');
+
+if (personalised_greeting) {
+console.log(personalised_greeting);
+  user_greeting.value = personalised_greeting;
+}
+
+else {
+  user_greeting.value = 'Good afternoon, Test.';
+}
+
+save_button.addEventListener('click', ()=>{
+  localStorage.setItem('user_greeting',user_greeting.value);
+  var greeting = localStorage.getItem('user_greeting');
+  console.log(greeting);
+});
 
 backButton.addEventListener('click', () => {
   window.history.back();
@@ -41,10 +59,10 @@ off_switch.addEventListener('click', ()=>{
   on_switch.className = 'settings_switch settings_off';
   off_switch.className = 'settings_switch settings_on';
   document.getElementById("setting_details").style.display = 'none';
-})
+});
 
 on_switch.addEventListener('click', ()=>{
   on_switch.className = 'settings_switch settings_on';
   off_switch.className = 'settings_switch settings_off';
   document.getElementById("setting_details").style.display = 'block';
-})
+});
