@@ -173,7 +173,7 @@ span {
 .calendar_text {
 	display: none;
 	max-width: 80%;
-	margin-left: 1em;
+	margin: 0 auto;
 	margin-top: 3em;
 	font-size: .9em;
 
@@ -181,7 +181,7 @@ span {
   box-shadow: .1em .1em .05em #369081;
   border-radius: .2em;
   padding: .5em 1.2em;
-  width: 18em;
+  width: 18em; 
   transition: opacity .5s ease-in-out;
  -moz-transition: opacity .5s ease-in-out;
  -webkit-transition: opacity .5s ease-in-out;
