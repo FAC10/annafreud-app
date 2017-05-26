@@ -13,6 +13,7 @@ var user_greeting = document.getElementById("user_greeting");
 var save_button = document.getElementById("save_button");
 var personalised_greeting = localStorage.getItem('user_greeting');
 
+
 if (personalised_greeting) {
 console.log(personalised_greeting);
   user_greeting.value = personalised_greeting;
