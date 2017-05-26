@@ -3,13 +3,21 @@ var calendarText = document.querySelector('.calendar_text');
 var select_mode_info = document.getElementById("select_mode");
 
 infoButton.addEventListener('click', () => {
-  calendarText.style.display = calendarText.style.display === 'none' ? 'inline-block' : 'none'
+  select_mode_info.style.display = 'none';
+
+  if (!calendarText.style.display || calendarText.style.display === 'none') {
+    calendarText.style.display = 'inline-block';
+  }
+  else {
+    calendarText.style.display = 'none';
+  }
+
 })
 
 var select_mode = false;
 
 document.getElementById("select_button").addEventListener('click', () => {
-  console.log(select_mode);
+calendarText.style.display = 'none';
 if (select_mode === false) {
   select_mode_info.style.display = 'block';
   var tds = document.getElementsByTagName('td');
