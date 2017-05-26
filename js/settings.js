@@ -40,9 +40,11 @@ add_fifth_reminder.addEventListener('click', () => {
 off_switch.addEventListener('click', ()=>{
   on_switch.className = 'settings_switch settings_off';
   off_switch.className = 'settings_switch settings_on';
+  document.getElementById("setting_details").style.display = 'none';
 })
 
 on_switch.addEventListener('click', ()=>{
   on_switch.className = 'settings_switch settings_on';
   off_switch.className = 'settings_switch settings_off';
+  document.getElementById("setting_details").style.display = 'block';
 })
