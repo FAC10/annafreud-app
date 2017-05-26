@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css" type="text/css">
   <link rel="stylesheet" href="./css/settings.css" type="text/css">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
   <title>Document</title>
 </head>
 <body>
@@ -41,10 +42,11 @@
   </select>
 
   <select name="am/pm">
-<option value="AM">AM</option>
-<option value="PM">PM</option>
+<option value="AM">am</option>
+<option value="PM">pm</option>
 </select>
-<button type="button" name="button" id="add_second_reminder">+</button>
+</br>
+<span id="add_second_reminder">+</span>
 </div>
 
 
@@ -66,10 +68,10 @@
   </select>
 
   <select name="am/pm">
-<option value="AM">AM</option>
-<option value="PM">PM</option>
+<option value="AM">am</option>
+<option value="PM">pm</option>
 </select>
-<button type="button" name="button" id="add_third_reminder">+</button>
+<span id="add_third_reminder">+ </span>
 </div>
 
 <div id="third_reminder">
@@ -89,10 +91,10 @@
   </select>
 
   <select name="am/pm">
-<option value="AM">AM</option>
-<option value="PM">PM</option>
+<option value="AM">am</option>
+<option value="PM">pm</option>
 </select>
-<button type="button" name="button" id="add_fourth_reminder">+</button>
+<span id="add_fourth_reminder">+</span>
 </div>
 
 <div id="fourth_reminder">
@@ -112,11 +114,11 @@
   </select>
 
   <select name="am/pm">
-<option value="AM">AM</option>
-<option value="PM">PM</option>
+<option value="AM">am</option>
+<option value="PM">pm</option>
 
 </select>
-<button type="button" name="button" id="add_fifth_reminder">+</button>
+<span id="add_fifth_reminder">+</span>
 </div>
 
 <div id="fifth_reminder">
@@ -136,8 +138,8 @@
   </select>
 
   <select name="am/pm">
-<option value="AM">AM</option>
-<option value="PM">PM</option>
+<option value="AM">am</option>
+<option value="PM">pm</option>
 </select>
 </div>
 
@@ -148,11 +150,12 @@
   <section class="settings_section">
     <h1 class="settings_heading">Customise</h1>
     <div class="settings_text">
-<p>Personalised greeting  <input id="user_greeting" type="text" placeholder="Good afternoon, Test" value="Good afternoon Test"></p>
+<p>Personalised greeting  <input id="user_greeting" type="text" placeholder="Good afternoon, Test" value="Good afternoon Test" class="personal_greeting"></p>
   <p><form action="">
-    Theme <input type="radio" name="theme" value="earth">Earth
-    <input type="radio" name="theme" value="water">Water
-    <input type="radio" name="theme" value="fire">Fire
+    <input type="radio" name="theme" value="air" class="theme" checked="checked">Air
+    <input type="radio" name="theme" value="earth" class="theme">Earth
+    <input type="radio" name="theme" value="water" class="theme">Water
+    <input type="radio" name="theme" value="fire" class="theme">Fire
   </form>
   </p>
     </div>
