@@ -21,7 +21,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 1em 1em 1em;
+}
+
+.logameal_questions {
+  max-width: 100%;
 }
 
 .logameal_input {
@@ -32,6 +35,7 @@ body {
   color: white;
   font-family: inherit;
   font-size: 1.2em;
+  max-width: 93%;
 }
 
 .logameal_input:focus {
@@ -57,8 +61,6 @@ body {
 }
 
 #current_time_input {
-  width: 80%;
-  /*height: 1.3em;*/
   font-family: inherit;
   font-size: 1.2em;
 }
@@ -83,8 +85,6 @@ body {
 
 input[type=range] {
   -webkit-appearance: none;
-  margin: 5px 0;
-  width: 80%;
   background: none;
   border: 0.05em white solid;
   border-radius: .2em;
@@ -95,13 +95,9 @@ input[type=range]:focus {
 }
 
 input[type=range]::-webkit-slider-thumb {
-  /*box-shadow: 1px 1px 1px #828282;*/
-  /*border: 1px solid #8A8A8A;*/
   height: 1em;
   width: 1em;
   border-radius: 40%;
   background: white;
-  /*cursor: pointer;*/
   -webkit-appearance: none;
-  /*margin-top: -5px;*/
 }
