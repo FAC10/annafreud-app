@@ -171,9 +171,9 @@ span {
 }
 
 .calendar_text {
-	max-width: 100%;
 	display: none;
-	margin: 0 3em;
+	max-width: 80%;
+	margin-left: 1em;
 	margin-top: 3em;
 	font-size: .9em;
 
