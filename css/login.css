@@ -1,10 +1,10 @@
 body, html {
   height: 100vh;
   background: #bdfae9;
-  background: -webkit-linear-gradient(#bdfae9, white); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#bdfae9, white); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#bdfae9, white); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#bdfae9, white); /* Standard syntax */
+  background: -webkit-linear-gradient(white, #bdfae9, #3dced6); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, #bdfae9, #3dced6); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, #bdfae9, #3dced6); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, #bdfae9, #3dced6); /* Standard syntax */
 
 }
 
