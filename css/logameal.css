@@ -48,6 +48,10 @@ body {
   text-align: center;
 }
 
+#q1 {
+  width: 100%;
+}
+
 #q5, #q4 {
   width: 100%;
 }
