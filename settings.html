@@ -10,7 +10,7 @@
   <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
   <title>Nourish | Settings</title>
 </head>
-<body>
+<body class='background'>
 
   <header class="settings_header">
     <img src="./images/return.png" alt="go back button" class="header_back">
@@ -21,7 +21,7 @@
   <section class="settings_section">
     <h1 class="settings_heading">Notifications</h1>
     <div class="settings_text">
-      <p><span class="settings_switch settings_on" id="on_switch">ON</span><span class="settings_switch settings_off" id="off_switch">OFF</span></p>
+      <p><span class="settings_switch settings_on" id="on_switch">on</span><span class="settings_switch settings_off" id="off_switch">off</span></p>
 <div id= "setting_details">
 <p>When would you like to receive reminders?</p>
 
@@ -151,13 +151,21 @@
     <h1 class="settings_heading">Customise</h1>
     <div class="settings_text">
 <p>Personalised greeting  <input id="user_greeting" type="text" placeholder="Good afternoon, Test" value="Good afternoon Test" class="personal_greeting"></p>
-  <p><form action="">
+  <!-- <p><form action="">
     <input type="radio" name="theme" value="air" class="theme" checked="checked">Air
-    <input type="radio" name="theme" value="earth" class="theme">Earth
-    <input type="radio" name="theme" value="water" class="theme">Water
-    <input type="radio" name="theme" value="fire" class="theme">Fire
+    <input type="radio" name="theme" value="earth" class="theme"/>Earth
+    <input type="radio" name="theme" value="water" class="theme"/>Water
+    <input type="radio" name="theme" value="fire" class="theme"/>Fire
   </form>
-  </p>
+  </p> -->
+  <button class='elements_setting' id='mountain'>mountain air</button>
+  <button class='elements_setting' id='marina'>marina</button>
+  <button class='elements_setting' id='pacific'>pacific</button>
+  <button class='elements_setting' id='moss'>moss</button>
+  <!-- <button class='elements_setting' id='earth'>earth</button>
+  <button class='elements_setting' id='earth'>earth</button>
+  <button class='elements_setting' id='earth'>earth</button> -->
+
     </div>
   </section>
 

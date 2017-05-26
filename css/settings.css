@@ -1,6 +1,47 @@
-body {
+.background {
   height: 100vh;
+  background: #52c4ce;
+  color: white;
+    background: -webkit-linear-gradient(#3eb3c4, #81e7d9, #7fe8da);
+    background: -o-linear-gradient(#3eb3c4, #81e7d9, #7fe8da);
+    background: -moz-linear-gradient(#3eb3c4, #81e7d9, #7fe8da);
+    background: linear-gradient(#3eb3c4, #81e7d9, #7fe8da);
 }
+
+.mountain {
+  height: 100vh;
+  background: #52c4ce;
+  color: white;
+    background: -webkit-linear-gradient(#3eb3c4, #81e7d9, #7fe8da);
+    background: -o-linear-gradient(#3eb3c4, #81e7d9, #7fe8da);
+    background: -moz-linear-gradient(#3eb3c4, #81e7d9, #7fe8da);
+    background: linear-gradient(#3eb3c4, #81e7d9, #7fe8da);
+}
+
+.pacific {
+  height: 100vh;
+  background: #34e89e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.marina {
+  height: 100vh;
+  background: #1D976C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.moss {
+  height: 100vh;
+  background: #134E5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(left, #71B280, #134E5E);
+background: -o-linear-gradient(left, #71B280, #134E5E);
+background: linear-gradient(to right, #71B280, #134E5E);
+}
+
 
 .settings_header {
   padding: 1em;
@@ -50,6 +91,41 @@ body {
   max-width: 100%
 }
 
+.save_setting_moonrise {
+  margin: 0 1.7em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: .1em .3em;
+  border-radius: .2em;
+  background: #2e2d3d;
+  box-shadow: .1em .1em .05em #808080;
+  max-width: 100%
+}
+.elements_setting {
+  border-style: none;
+  outline: none;
+  font-size: 0.8em;
+  color: white;
+  padding: .1em .3em;
+  border-radius: .2em;
+  background: #6dd2a6;
+  box-shadow: .1em .1em .05em #369081;
+  max-width: 100%
+}
+
+.elements_setting_moonrise {
+  border-style: none;
+  outline: none;
+  font-size: 0.8em;
+  color: white;
+  padding: .1em .3em;
+  border-radius: .2em;
+  background: #2e2d3d;
+  box-shadow: .1em .1em .05em #808080;
+  max-width: 100%
+}
+
 .settings_switch {
   padding: 0em .2em;
   margin: .2em;
@@ -58,6 +134,11 @@ body {
 .settings_on {
   background: #6dd2a6;
   box-shadow: .1em .1em .05em #369081;
+}
+
+.moonrise_on {
+  background: #A9A9A9;
+  box-shadow: .1em .1em .05em #bdc3c8;
 }
 
 .settings_text {
@@ -118,5 +199,5 @@ select:focus {
 
 #user_greeting:focus {
   outline: none;
-  border: .15em solid white; 
+  border: .15em solid white;
 }

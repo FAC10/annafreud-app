@@ -67,3 +67,29 @@ on_switch.addEventListener('click', ()=>{
   off_switch.className = 'settings_switch settings_off';
   document.getElementById("setting_details").style.display = 'block';
 });
+
+var mountainAir = document.getElementById('mountain');
+var pacific = document.getElementById('pacific');
+var marina = document.getElementById('marina');
+var moss = document.getElementById('moss');
+var background = document.querySelector('.background');
+// var saveSetting = document.querySelector('.save_setting');
+// var elementsSetting = document.querySelector('.elements_setting');
+var dusk = document.getElementById('dusk');
+var moss = document.getElementById('moss');
+
+pacific.addEventListener('click', function() {
+  background.className = 'pacific';
+});
+
+marina.addEventListener('click', function() {
+  background.className = 'marina';
+});
+
+moss.addEventListener('click', function() {
+  background.className = 'moss';
+});
+
+mountainAir.addEventListener('click', function() {
+  background.className = 'mountain';
+});
