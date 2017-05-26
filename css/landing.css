@@ -1,9 +1,10 @@
 body {
-
   background-position: center bottom;
   height: 100vh;
-  background-image: url('../images/bluescape.jpg');
-
+  background: #7190d4;
+  background-image: url('../images/lscapepurple.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .landing_header {
@@ -33,7 +34,7 @@ body {
 
 .landing_greeting {
   margin: 0em .5em .5em .5em;
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-align: center;
   line-height: 2.1em;
 }

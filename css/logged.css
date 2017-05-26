@@ -24,13 +24,14 @@ body {
 p {
   text-align: center;
   font-size: 1.5em;
+  margin-top: -1em; 
 }
 .container {
-  padding: 2em;
+  padding: 0em 3em;
 }
 
 .success-svg {
-  padding: 2em;
+  padding: 4em;
 }
 
 .home {
