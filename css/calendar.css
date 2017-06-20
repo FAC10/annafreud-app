@@ -1,9 +1,17 @@
 body {
 	height: 100vh;
-
+	background-color: #3bd6c7;
 	background-image: url('../images/lscapepurple.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.container {
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: -3.5em;
 }
 
 .calendar_header {
@@ -21,20 +29,7 @@ body {
 	border-collapse: collapse;
 }
 
-.log-day {
-  color: white;
-  text-decoration: none;
-}
-
-.container {
-  display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin-top: -3.5em;
-}
-
-.calendar-container header {
+.calendar_header {
 	border-radius: 0.5em 0.5em 0 0;
 	color: #fff;
 	padding: 1em;
@@ -65,27 +60,18 @@ body {
 	text-transform: lowercase;
 }
 
-.calendar {
-	color: white;
-}
-
-.calendar thead {
-	color: #fcf1eb;
-	text-transform: uppercase;
-}
-
 .calendar td {
 	padding: .2em .3em;
 	text-align: center;
 }
 
-span {
+.day_header {
 	padding: .2em .15em;
 	text-align: center;
 	font-size: 0.9em;
 }
 
-.current-day {
+.current_day {
 	background-color: #ad6cb7;
 	border-radius: 50%;
   color: #fff;
@@ -97,20 +83,8 @@ span {
 	padding: .2em;
 }
 
-.foodlog-day {
-	color: #c95d32;
-	text-decoration: underline;
-}
-
-.session-day {
-	border: .05em solid white;
-	border-radius: 50%;
-	padding: .2em;
-  text-decoration: none;
-}
-
-.prev-month,
-.next-month {
+.prev_month,
+.next_month {
 	color: silver;
 }
 
@@ -132,7 +106,7 @@ span {
 	cursor: pointer;
 }
 
-.selected {
+#selected {
 	border: .05em solid white;
 	height: 1em;
 	width: 1em;
@@ -161,13 +135,13 @@ span {
 }
 
 .send_button:active {
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  box-shadow: 0 .2em #666;
+  transform: translateY(.2em);
 }
 
 .select_button:active {
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  box-shadow: 0 .2em #666;
+  transform: translateY(.2em);
 }
 
 .calendar_text {
@@ -176,7 +150,6 @@ span {
 	margin: 0 auto;
 	margin-top: 3em;
 	font-size: .9em;
-
 	background: #50bbc5;
   box-shadow: .1em .1em .05em #369081;
   border-radius: .2em;

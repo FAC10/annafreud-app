@@ -1,6 +1,7 @@
 body {
   background-position: center bottom;
   height: 100vh;
+  background-color: inherit;
   background-image: url('../images/lscapepurple.png');
   background-repeat: no-repeat;
   background-size: cover;

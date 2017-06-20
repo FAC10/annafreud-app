@@ -2,24 +2,6 @@ body {
   height: 100vh;
 }
 
-
-.day_header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 1em 1em 0 1em;
-}
-
-.food-log {
-  margin-bottom: 0.5em;
-  border-style: solid;
-  padding: 0.5em;
-}
-
-.back_button {
-  height: 3em;
-}
-
 .container {
   margin: -3em 1em;
   display: flex;
@@ -30,6 +12,17 @@ body {
   border: .05em solid white;
   padding: 0em 1em 1em 1em;
   border-radius: .2em;
+}
+
+.day_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em 1em 0 1em;
+}
+
+.back_button {
+  height: 3em;
 }
 
 .header_menu {
