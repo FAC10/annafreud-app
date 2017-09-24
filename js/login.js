@@ -15,18 +15,6 @@ info_button.addEventListener('click', () => {
   }
 })
 
-// login_button.addEventListener('click', () =>{
-//   var email = document.getElementById("login_email").value.toUpperCase();
-//   var password = document.getElementById("login_password").value;
-// if (email === 'TESTUSER@GMAIL.COM' && password === '1234' ) {
-// login_form.submit();
-// }
-// else {
-//   authentication_error.style.visibility = 'visible';
-// }
-// });
-//
-//
 login_form.addEventListener('submit', (event)=> {
   event.preventDefault();
   if (event.target[0].value.toUpperCase() === 'TESTUSER@GMAIL.COM' && event.target[1].value === '1234') {
